@@ -1,0 +1,41 @@
+site    id      date            fernHealth      buds     fingerlings     handSpans       footLongs
+adz     1       2019-04-07      dead            0        0               0               0
+adz     2       2019-04-07      mostly dead     0        3               0               0
+adz     3       2019-04-07      mostly dead     0        0               0               0
+adz     4       2019-04-07      healthy         0        0               4               0
+adz     5       2019-04-07      medium health   0        0               0               0
+adz     6       2019-04-07      healthy         5        0               0               0
+adz     7       2019-04-07      medium health   2        0               0               0
+adz     8       2019-04-07      healthy         0        5               0               0
+adz     9       2019-04-07      medium health   3        0               0               0
+adz     10      2019-04-07      medium health   0        3               0               7
+adz     11      2019-04-07      healthy         4        0               0               0
+adz     12      2019-04-07      healthy         2        0               0               0
+
+gzn     1       2019-04-07      medium health   0        2               2               0
+gzn     2       2019-04-07      medium health   1        2               3               0
+gzn     3       2019-04-07      low health      3        0               0               0
+gzn     4       2019-04-07      healthy (4 fr)  0        2               0               0
+gzn     5       2019-04-07      healthy (12)    0        4               7               2
+gzn     6       2019-04-07      healthy (8)     0        6               0               0
+gzn     7       2019-04-07      healthy (6)     5        0               0               0
+gzn     8       2019-04-07      healthy (6)     1        1               0               0
+gzn     9       2019-04-07      healthy (9)     5        0               0               0
+gzn     10      2019-04-07      healhty (8)     1        1               0               0
+gzn     11      2019-04-07      healthy (8)     0        5               0               0
+gzn     12      2019-04-07      healthy (8)     6
+
+
+site    id      date            fernHealth      fronds  buds     fingerlings     handSpans       footLongs
+gzs     1       2019-04-07      medium healthy  8       0              0                9         0
+gzs     2       2019-04-07      medium healthy  5       0              5                2         3
+gzs     3       2019-04-07      healthy         6       6              0                0         0
+gzs     4       2019-04-07      healthy         3       0              3                0         0
+gzs     5       2019-04-07      medium healthy  10      0              1                1         4
+gzs     6       2019-04-07      healthy         5       0              5                0         0
+gzs     7       2019-04-07      healthy         3       1              3                1         0
+gzs     8       2019-04-07      healthy        7       0              0                3         1
+gzs     9       2019-04-07      healthy        10      2              4                0         0
+gzs     10      2019-04-07      poor health    7       7              0                0         0
+gzs     11      2019-04-07      healthy       4       5              0                0         0
+gzs     12      2019-04-07      healthy       6       0              3                0         0
