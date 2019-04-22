@@ -1,42 +1,41 @@
-site    id      date            fernHealth      buds     fingerlings     handSpans       footLongs
-adz     1       2019-04-14      dead            0        0               0               0
-adz     2       2019-04-14      mostly dead     0        3               2               0
-adz     3       2019-04-14      mostly dead     0        0               0               0
-adz     4       2019-04-14      healthy         0        0               0               4
-adz     5       2019-04-14      medium health   6        0               0               0
-adz     6       2019-04-14      healthy         0        4               0               0
-adz     7       2019-04-14      medium health   0        1               0               0
-adz     8       2019-04-14      healthy         0        5               0               0
-adz     9       2019-04-14      medium health   0        4               0               0
-adz     10      2019-04-14      medium health   0        1               0               11
-adz     11      2019-04-14      healthy         0        0               4               0
-adz     12      2019-04-14      healthy         4        0               0               0
+site    id      date            fernHealth      buds     fingerlings     handSpans       footLongs    healthy fronds    poor fronds
+adz     1       2019-04-14      dead            0        0               0               0            0                 0
+adz     2       2019-04-14      mostly dead     0        3               2               0            0                 2
+adz     3       2019-04-14      mostly dead     0        0               0               0            0                 0
+adz     4       2019-04-14      healthy         0        0               0               4            6                 0
+adz     5       2019-04-14      medium health   6        0               0               0            6                 3
+adz     6       2019-04-14      healthy         0        4               0               0            5                 0
+adz     7       2019-04-14      medium health   0        1               0               0            4                 3
+adz     8       2019-04-14      healthy         0        5               0               0            10                3
+adz     9       2019-04-14      medium health   0        4               0               0            8                 0
+adz     10      2019-04-14      medium health   0        1               0               11           8                 0
+adz     11      2019-04-14      healthy         0        0               4               0            9                 1
+adz     12      2019-04-14      healthy         4        0               0               0            6                 2
 
-gzn     1       2019-04-14      medium health   0        0               4               0
-gzn     2       2019-04-14      medium health   0        3               4               3
-gzn     3       2019-04-14      low health      0        0               0               0
-gzn     4       2019-04-14      healthy (4 fr)  0        0               2               0
-gzn     5       2019-04-14      healthy (12)    0        0               4               9
-gzn     6       2019-04-14      healthy (8)     0        7               0               0
-gzn     7       2019-04-14      healthy (6)     0        4               0               0
-gzn     8       2019-04-14      healthy (6)     0        1               1               0
-gzn     9       2019-04-14      healthy (9)     0        7               0               0
-gzn     10      2019-04-14      healhty (8)     4        3               1               0
-gzn     11      2019-04-14      healthy (8)     2        3               0               0
-gzn     12      2019-04-14      healthy (8)     6        0               0               0
+gzn     1       2019-04-14      medium health   0        0               4               0            8                 0
+gzn     2       2019-04-14      medium health   0        3               4               3            12                0
+gzn     3       2019-04-14      low health      0        0               0               0            3                 2
+gzn     4       2019-04-14      healthy (4 fr)  0        0               2               0            3                 0
+gzn     5       2019-04-14      healthy (12)    0        0               4               9            10                0
+gzn     6       2019-04-14      healthy (8)     0        7               0               0            9                 1
+gzn     7       2019-04-14      healthy (6)     0        4               0               0            6                 0
+gzn     8       2019-04-14      healthy (6)     0        1               1               0            7                 1
+gzn     9       2019-04-14      healthy (9)     0        7               0               0            10                0
+gzn     10      2019-04-14      healhty (8)     4        3               1               0            13                0
+gzn     11      2019-04-14      healthy (8)     2        3               0               0            10                1
+gzn     12      2019-04-14      healthy (8)     6        0               0               0            9                 0
 
+site    id      date            fernHealth      fronds  buds     fingerlings     handSpans       footLongs              healthy fronds  poor fronds
 
-site    id      date            fernHealth      fronds  buds     fingerlings     handSpans       footLongs
-
-gzs     1       2019-04-14      medium healthy  8       0              3                3         5
-gzs     2       2019-04-14      medium healthy  5       2              0                6         3
-gzs     3       2019-04-14      healthy         6       0              3                3         0
-gzs     4       2019-04-14      healthy         3       0              0                3         0
-gzs     5       2019-04-14      medium healthy  10      0              5                0         5
-gzs     6       2019-04-14      healthy         5       0              0                5         0
-gzs     7       2019-04-14      healthy         3       0              0                4         0
-gzs     8       2019-04-14      healthy        7       1              2                0         3
-gzs     9       2019-04-14      healthy        10      0              1                0         6
-gzs     10      2019-04-14      poor health    7       4              5                0         0
-gzs     11      2019-04-14      healthy       4       0              5                0         0
-gzs     12      2019-04-14      healthy       6       0              0                0         2
+gzs     1       2019-04-14      medium healthy  8       0              3                3         5                     8               0
+gzs     2       2019-04-14      medium healthy  5       2              0                6         3                     7               0
+gzs     3       2019-04-14      healthy         6       0              3                3         0                     8               0
+gzs     4       2019-04-14      healthy         3       0              0                3         0                     4               0
+gzs     5       2019-04-14      medium healthy  10      0              5                0         5                     9               0
+gzs     6       2019-04-14      healthy         5       0              0                5         0                     6               0
+gzs     7       2019-04-14      healthy         3       0              0                4         0                     4               1
+gzs     8       2019-04-14      healthy        7       1              2                0         3                      6               2
+gzs     9       2019-04-14      healthy        10      0              1                0         6                      13              1
+gzs     10      2019-04-14      poor health    7       4              5                0         0                      8               1
+gzs     11      2019-04-14      healthy       4       0              5                0         0                       7               2
+gzs     12      2019-04-14      healthy       6       0              0                0         2                       6               0
