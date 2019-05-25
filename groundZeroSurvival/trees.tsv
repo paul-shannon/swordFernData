@@ -1,24 +1,31 @@
 # trees in all 4 quadrants
-x,y,dbh,comment
-nw.tree.01,26.2,-15.7,54.8,big forked maple
-nw.tree.02,42.4,-17.1,15.7,little dead maple
-nw.tree.03,58.0,-26.3,40.5,healthy limbless maple; touches big downed fir
-nw.tree.04,63.11,-4.2,37.8,uphill maple
-nw.tree.05,65.4,0.0,13,uphill hemlock
+x,y,dbh,species,comment
+nw.tree.01,26.2,-15.7,54.8,ACMA,big forked maple
+nw.tree.02,42.4,-17.1,15.7,ACMA,little dead maple
+nw.tree.03,58.0,-26.3,40.5,ACMA,healthy limbless maple; touches big downed fir
+nw.tree.04,63.11,-4.2,37.8,ACMA,uphill maple
+nw.tree.05,65.4,0.0,13,TSME,uphill hemlock
 #
-sw.tree.06,NA,28.1,18.5,leaning hazelnut two big branches; 10 cm dbh; 8.5cm dbh
-sw.tree.07,40,47.6,110,big doug fir stump; source of big east-west log (x estimated)
-
-sw.tree.08,58,46.10,56.5,south cedar #1; on trail (x estimated)
-sw.tree.09,56,34.2,84.5,middle cedar #2 (x estimated)
-sw.tree.10,60,25.0,92,north cedar #3 (x estimated)
-
-sw.tree.11,64,18.11,109,big hemlock (x estimated)
-sw.tree.12,60,22.5,29.7,little maple (x estimated)
+sw.tree.06,30,28.1,18.5,COCO,leaning hazelnut two big branches; 10 cm dbh; 8.5cm dbh
+sw.tree.07,30,47.6,110,PSME.stump,big doug fir stump; source of big east-west log (x estimated)
 #
-ne.tree.13,-4.7,-7.1,92.5,cedar 1 with two healthy ferns; one immediately at base; the other just south of that
-ne.tree.14,-16.1,-12.5,118,big cedar 2; to the east
-ne.tree.15,-10.4,-5.8,60.5,uphill maple
+sw.tree.08,41.5,46.10,56.5,THPL,south cedar #1; on trail (x estimated)
+sw.tree.09,43.5,34.2,84.5,THPL,middle cedar #2 (x estimated)
+sw.tree.10,48.11,25.0,92,THPL,north cedar #3 (x estimated)
 #
-se.tree.16,-11.1,5.9,60.5,big uphill maple
-se.tree.17,-28.6,1.9,22,small dead maple
+sw.tree.11,59.9,18.11,109,TSME,big hemlock (x estimated)
+sw.tree.12,54,22.5,29.7,ACMA,little maple (x estimated)
+#
+ne.tree.13,-4.2,-7.1,92.5,THPL,cedar 1 with two healthy ferns; one immediately at base; the other just south of that
+ne.tree.14,-16.1,-12.5,118,THPL,big cedar 2; to the east
+ne.tree.15,-10.4,-5.8,60.5,ACMA,uphill maple
+#
+se.tree.16,-11.1,5.9,60.5,ACMA,big uphill maple
+se.tree.17,-28.6,1.9,22,ACMA,small dead maple
+# trees added saturday may 25th, in southeast quadrant: 2 hemlocks in region, cedars and maples outside
+#sw.tree.20,-40.9,18.5,15,TSME,healthy small hemlock
+#sw.tree.21,-38.10,17.3,6,TSME,very small hemlock; only a few branches with needles
+#sw.tree.22,-19.4,46.0,105,THPL,big cedar c1
+#sw.tree.23,-39.9,38.7,115,THPL,bigger cedar
+#sw.tree.24,-39.9,30.2,48,ACMA,maple
+#sw.tree.25,-41.1,38.2,39,ACMA,maple
