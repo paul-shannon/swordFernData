@@ -1,0 +1,9 @@
+# logs in all 4 quadrants
+x,y,dbh,comment
+# se
+se.log.01.eastTip,-54.8,0,36,
+#se.log.01.midPoint,NA,NA,74,
+se.log.01.westTip,18,37.2,100,x is estimated
+#       nw
+nw.log.02.southButt,53.4,-7.8,160,
+nw.log.02.atTrail,64.8,-35.2,149,
