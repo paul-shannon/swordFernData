@@ -17,5 +17,6 @@ tree.colors <- as.character(tree.color.map[tbl.trees$species])
 with(tbl.trees, points(x, y, col=tree.colors, pch=16, cex=dbh.transformed))
 with(tbl.logs, lines(x=c(x[1], x[2]), y=c(y[1], y[2]), lwd=10))
 with(tbl.logs, lines(x=c(x[3], x[4]), y=c(y[3], y[4]), lwd=20))
+with(tbl.logs, lines(x=c(x[5], x[6]), y=c(y[5], y[6]), lwd=8))
 
-legend(52, 49, names(tree.color.map), as.character(tree.color.map))
+legend(52.5, 52, names(tree.color.map), as.character(tree.color.map))
