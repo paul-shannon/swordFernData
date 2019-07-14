@@ -1,0 +1,33 @@
+siteName: Penney and Michael's property, site 1, upper clearing
+date: 2019-06-05
+who: Caleb Goldstein-Miller, Paul Shannon
+lat: 47.86667
+lon: -122.84097
+distance units: feet
+elevation: 500
+area: 3200
+shape: trapezoidal
+slope:
+  - degrees: -5
+  - direction: NNW
+soil: NA
+fernCountHealthy: 38
+fernCountNoNewGrowth: 2
+fernCountDead: 68
+estimatedPreDieOffSwordFernDominance: 40
+canopyCover: 33
+trees:
+  - ALRU: 10
+  - PSME: 4
+shrubs:
+  - trailing blackberry
+  - salmonberry
+forbs:
+  - bleeding heart
+  - low oregon grape
+  - bracken fern
+photos:
+  - siteNotes: notYetUploaded
+videos:
+  - panorama: notYetUploaded
+notes:  NA

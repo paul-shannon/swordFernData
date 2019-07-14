@@ -1,0 +1,29 @@
+siteName: Penney and Michael's property, site 2, lower, forested
+date: 2019-06-05
+who: Caleb Goldstein-Miller, Paul Shannon
+lat: 47.86584
+lon: -122.84311
+distance units: feet
+elevation: 486
+area: 1899
+shape: triangular
+slope:
+  - degrees: -5
+  - direction: SSW
+soil: NA
+fernCountHealthy: 16
+fernCountNoNewGrowth: 10
+fernCountDead: 69
+estimatedPreDieOffSwordFernDominance: 70
+canopyCover: 85
+trees:
+  - ACMA: 3
+  - THPL: 2
+treeDistribution: largely treeless center
+shrubs:
+forbs:
+photos:
+  - siteNotes: notYetUploaded
+videos:
+  - panorama: notYetUploaded
+notes:  NA

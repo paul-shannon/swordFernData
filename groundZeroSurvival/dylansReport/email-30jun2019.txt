@@ -1,0 +1,61 @@
+Hi Paul,
+
+That's no problem. Thank you both for collecting the data. I did most
+of the distance analysis with some R functions that I wrote. It's
+super easy to do it over again. I'll post the script on my github once
+it's a little more polished up.
+
+Attached is the new distance matrix and some graphs.
+
+Analysis
+
+I did a logistic regression on the data and found that the distance
+between a fern and the nearest tree or log had a significant effect on
+survival (z = 1.979, p = 0.0479). But just barely! It's a weak
+relationship and it only stands if all the ferns are included. If the
+data are standardized to only include ferns within 15 ft of a tree or
+log, the relationship disappears. If logs are removed from the data,
+the relationship disappears. I think this strongly suggests that in a
+die-off zone, there is a distance threshold beyond which ferns are
+almost incapable of surviving. However, below that threshold,
+proximity to trees and CWD has little to no effect on survival.
+
+The survival rate was 10.2% for sword ferns within 15 ft of a tree or
+log. In contrast, the survival rate was 2.3% for sword ferns further
+than 15 ft from a tree or log. That may not sound like a big
+difference but the odds of a fern surviving are 4.8 times greater if
+it is located within 15 ft of a tree or log.
+
+The species and DBH of the nearest tree had no significant effect on
+survival. Likewise, there is no effect of DBH or minimum distance on
+the total number of fronds, nor the ratio of new fronds to old fronds.
+
+Attached
+fern_distances.csv
+minimum_distance.png
+dist_histogram.png
+nearest_species.png
+dist_frond_ratio.png
+dist_frond_total.png
+dbh_frond_ratio.png
+dbh_frond_total.png
+
+Minor formatting changes
+- I renamed smaller.doug.fir as smaller.doug.fir.log (just wanted to make it clear in the name that it was a log)
+- I  changed 'species' of sw.tree.07 to 'CWD' (I read in the comments
+  that this is a stump so it made sense to me  to change it to coarse woody debris)
+
+Column Names
+status = whether fern is alive or dead
+fronds.new = number of new fronds
+fronds.old = number of old fronds
+fronds.ratio = ratio of new to old fronds
+min = minimum distance to the nearest tree (or cwd)
+species = species of tree or 'cwd' if it's a log or stump
+dbh = diameter at breast height (trees) or mean diameter (cwd)
+
+Dylan
+
+See More from Paul Shannon
+
+dbh_frond_ratio.pngdbh_frond_total.pngdist_frond_ratio.pngdist_frond_total.pngdist_histogram.pngminimum_distance.pngnearest_species.png
