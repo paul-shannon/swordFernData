@@ -1,0 +1,85 @@
+# from "Forest Monitoring Protocol June 2011
+# trees
+ACMA  Big Leaf Maple
+PREM Bitter Cherry
+POBA Black Cottonwood
+CRDO Black Hawthorne
+FRPU Cascara
+PSME Douglas Fir
+QUGA Garry Oak
+ABGR Grand Fir
+FRLA Oregon Ash
+CONU Pacific Dogwood
+ARME Pacific Madrone
+BEPA Paper Birch
+POTR Quaking Aspen
+ALRU Red Alder
+PICOL Shore Pine
+PISI Sitka Spruce
+TSHE Western Hemlock
+THPL Western Red Cedar
+# shrubs
+ROGY Baldhip rose
+COCO Beaked Hazelnut
+RULE Blackcap Raspberry
+OPHO Devils' Clut
+MANE Dull Oregon grape
+VAOV Evergreen huckleberry
+SPDO Hardhack
+VIED High Cranberry
+OECE Indian Plum
+ARUV Kinnikinnick
+PHLE Mock-orange
+RONU Nootka Rose
+HODI Oceanspray
+PHCA Pacific ninebark
+RHMA Pacific Rhododendron
+SALU Pacific Willo
+VAPA Red huckleberry
+COSE Red osiar dogwood
+RISA Red-flowering currant
+GASH Salal
+RUSP Salmonberry
+SASC Scouler Willow
+AMAL Werviceberry
+SASI Sitka Willow
+SYAL Snowberry
+RIBR Stink Currant
+RILA Swamp Gooseberry
+ROPI Swamp Rose
+MAAQ Tall Oregon Grape
+LOIN Twinberry
+ACCI Vine Maple
+# groundcover
+PTAQ Bracken fern
+FRCH Coastal Strawberry
+STCI Cooley's Hedge Nettle
+BLSP Deer fern
+EPCI Dward fireweed
+MADI False Lily of the Valley
+CHAN Fireweed
+TEGR Fringecup
+ATFI Lady fern
+POGL Licorice fern
+DIDO Pacific Bleeding Heart
+HYTE Pacific Waterleaf
+TOME Piggy-back plant
+LOHI Pink Honeysuckle
+CLSI Siberian Minter's Lettue
+LYAM Skunk Cabbage
+GAAP Sticky willie
+URDI Stinging nettle
+OSCH Sweet Cicely
+POMU Sword fern
+RUUR Trailing blackberry
+ACTR Vanilla leaf
+OESA Water Parsley
+LOCI Western trumpet honeysuckle
+DREX Wood fern
+# emergents
+JUEF Common Rush
+EQAR Common Horsetail
+EQTE Giant Horsetail
+SCAC Hardstem bullrush
+CAOB Slough sedge
+
