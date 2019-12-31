@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple Markers - north Seward</title>
+    <script src="locations.js"></script>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+         var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: {lat: 47.559167, lng: -122.249722},
+            mapTypeId: google.maps.MapTypeId.HYBRID
+            });
+         var markers = locations.map(function(location, i){
+             var center = new google.maps.LatLng(location.lat, location.lng)
+             marker = new google.maps.Circle({
+               center: center,
+               radius: 1,
+               strokeColor: 'red',
+               fillColor: "red",
+               map: map
+               });
+           }); // map iterator
+          var myStyle = [{featureType: "administrative", elementType: "labels",    stylers: [{ visibility: "off" }]},
+                  {featureType: "poi",            elementType: "labels",    stylers: [{ visibility: "off" }]},
+                  {featureType: "water",          elementType: "labels",    stylers: [{ visibility: "off" }]},
+                  {featureType: "road",           elementType: "labels",    stylers: [{ visibility: "off" }]},
+                  {featureType: "road",           elementType: "geometry",  stylers: [{ visibility: "off" }]}
+                 ];
+
+         map.setOptions({styles: myStyle});
+         markers.map(function(marker){marker.setMap(map);});
+         } // initMap
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkGwPVB2OLaBmQjLQvkoLv5M1ZQU64V7A&callback=initMap">
+    </script>
+  </body>
+</html>
