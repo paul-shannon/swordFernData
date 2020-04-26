@@ -1,5 +1,4 @@
 site    id      date            fernHealth      healthy fronds    poor fronds   buds     fingerlings     handSpans       footLongs     full
-
 adz     1       2019-05-05      dead            0                 0             0        0               0               0            0
 adz     2       2019-05-05      mostly dead     0                 2             0        0               0               0            8 (very short)
 adz     3       2019-05-05      mostly dead     0                 0             0        0               0               0            0
@@ -12,12 +11,6 @@ adz     9       2019-05-05      medium health   8                 0             
 adz     10      2019-05-05      medium health   8                 0             0        0               0               0            14 (some insect damage)
 adz     11      2019-05-05      healthy         9                 1             0        0               0               4            4 (14" no i  damage)
 adz     12      2019-05-05      healthy         6                 2             0        0               0               1            3
-
-
-
-
-site    id      date            fernHealth      healthy fronds  poor fronds     buds     fingerlings     handSpans       footLongs      full
-
 gzn     1       2019-05-05      medium health   8               0               0        0               0               0              8 (3 short, 5 16")
 gzn     2       2019-05-05      medium health   12              0               0        0               0               0              12 (2/10 short, others 16+)
 gzn     3       2019-05-05      low health      3               2               0        0               0               0              0 (nothing)
@@ -30,10 +23,6 @@ gzn     9       2019-05-05      healthy (9)     10              0               
 gzn     10      2019-05-05      healhty (8)     4               0               0        0               0               2              6
 gzn     11      2019-05-05      healthy (8)     10              1               0        0               0               2              5
 gzn     12      2019-05-05      healthy (8)     9               0               0        0               0               0              6
-
-
-
-
 gzs     1       2019-05-05      medium healthy  8               0               0              0                0         0             14 (5 small)
 gzs     2       2019-05-05      medium healthy  7               0               0              0                1         1             12 (various lengths)
 gzs     3       2019-05-05      healthy         8               0               0              0                0         0             6
