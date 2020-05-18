@@ -1,0 +1,22 @@
+	        planted survived (16 may 2020)
+grand fir	5	0
+vine maple	20	6
+red alder	10	3
+oregon grape	50	3
+pacific dogwood	5	0
+hazelnut	20	6
+salal		50	0
+indian plum	50	6
+baldhip rose	20	11
+scouler willow	5	0
+snowberry 	40	40
+yew		5	0
+foamflower	50	0
+hemlock		10	6
+huckleberry	50	32
+ocean spray	10	9  
+
+total           400  	122
+
+
+
