@@ -6,3 +6,5 @@ tbl$lat <- as.numeric(sub("°", "", tbl$Latitude))
 tbl$lon <- as.numeric(sub("°", "", tbl$Longitude))
 
 plot(tbl$lon, tbl$lat)
+
+
