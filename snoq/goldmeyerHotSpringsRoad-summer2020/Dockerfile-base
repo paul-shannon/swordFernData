@@ -1,0 +1,13 @@
+FROM rocker/shiny
+WORKDIR /home/shiny
+COPY webapp.R .
+COPY site.yaml .
+COPY installPrerequisites.R .
+RUN R -f installPrerequisites.R
+
+
+
+
+
+
+
