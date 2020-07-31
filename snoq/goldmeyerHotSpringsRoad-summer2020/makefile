@@ -1,5 +1,5 @@
 ID = 31jul2020
-APP_IMAGE_NAME = map_app_$(ID)
+APP_IMAGE_NAME = snoqmap_app_$(ID)
 
 build:
 	docker build -t $(APP_IMAGE_NAME) -f Dockerfile .
